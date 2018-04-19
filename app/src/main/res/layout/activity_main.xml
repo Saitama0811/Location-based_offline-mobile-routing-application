@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context="com.saurabhgoel.user_interface_internal.MainActivity">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/tool"
+            app:layout_scrollFlags="scroll|enterAlways"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/loca"
+        android:textSize="20dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#ffffff"
+        android:hint=" Enter starting point"
+        android:paddingLeft="20dp"
+        android:inputType="textNoSuggestions"
+        android:textColorHint="#c1caff"
+        android:background="#659EFA"/>
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src= "@drawable/dest_pin"
+            android:adjustViewBounds="true"
+            android:maxWidth="70dp"
+            android:maxHeight="70dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="15dp"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="35dp"
+        android:background="#659EFA"
+        android:id="@+id/dest"
+        android:hint=" Enter destination"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:inputType="textNoSuggestions"
+        android:textColorHint="#c1caff"
+        android:textSize="20dp"
+
+        android:layout_marginRight="45dp"
+        android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src= "@drawable/arrow"
+            android:id="@+id/arrow"
+            android:adjustViewBounds="true"
+            android:maxWidth="35dp"
+            android:maxHeight="25dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="312dp"
+            android:layout_marginTop="34dp"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:borderWidth="0dp"
+android:id="@+id/fabBtn"
+    android:backgroundTint="@color/colorPrimary"
+   android:layout_marginLeft="270dp"
+    android:layout_marginTop="530dp"
+    app:fabSize="auto"
+    android:clickable="true"
+    android:src="@android:drawable/ic_menu_directions"/>
+</android.support.design.widget.CoordinatorLayout>

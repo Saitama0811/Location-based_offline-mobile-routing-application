@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">SmsParsing</string>
+
+    <string name="action_ok">OK</string>
+    <string name="action_send_normal_sms">Send normal SMS</string>
+    <string name="action_send_condition_sms">Send Condition SMS</string>
+
+    <string name="your_cellphone_number">Your cellphone number:</string>
+    <string name="phone_number_hint">912345678</string>
+    <string name="toast_sending_sms">Sending sms…</string>
+
+    <string name="permission_alert_dialog_title">Requesting SMS permission</string>
+    <string name="permission_dialog_message">The app will now request your permission to send and read SMS related services.</string>
+
+    <string name="error_invalid_phone_number">Invalid phone number</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Geoff</string>
+    <string name="slide_1_desc">An offline Location mobile routing App</string>
+
+    <string name="slide_2_title">An initiative under SIH 2018</string>
+    <string name="slide_2_desc">An app that let you search for difference between two different location offline</string>
+
+    <string name="slide_3_title"></string>
+    <string name="slide_3_desc">Just enter two locations and that is all!</string>
+
+    <string name="slide_4_title">What this app will give you?</string>
+    <string name="slide_4_desc">
+    </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>
